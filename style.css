@@ -1,0 +1,91 @@
+body{
+    background-color: antiquewhite;
+    margin: 20px;
+}
+
+h1,h2{
+font-family:'Fredericka the Great', Trebuchet MS, Arial;
+color: #ff5d05;
+font-size: 200%;
+}
+
+#peppers {
+ 
+    max-height: 400px;
+    object-fit: cover;
+    width: 90%;
+}
+
+#intro{
+    text-align:center;
+    background-color: #ff5d05;
+    color: antiquewhite;
+    padding: 5px;
+}
+
+
+p, li{
+    font-family: 'Roboto', sans-serif;
+    color: green;
+}
+
+
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+  }
+  @media(max-width: 768px){
+	.column{
+    width:100%;
+   
+    }
+    #peppers{
+        width: 100%;
+    }
+}
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+
+.video {
+    text-align: center;
+    color:antiquewhite;
+    background-color: #ff5d05;
+    padding-bottom: 10px;
+}
+
+.footer{
+    padding-bottom: 5px;
+}
+
+#border{ 
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(border.png) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(border.png) 30 stretch;
+  }
+
+
+/* 
+h2.video {
+    text-align: center;
+    color:white;
+    background-color: #ff5d05;
+} */
+
+/* 
+  google fonts:
+
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif; */

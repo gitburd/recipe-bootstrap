@@ -1,6 +1,6 @@
 body{
     background-color: antiquewhite;
-    margin: 20px;
+    padding: 20px;
 }
 
 h1,h2{
@@ -10,17 +10,20 @@ font-size: 200%;
 }
 
 #peppers {
- 
-    max-height: 400px;
+
+    max-height: 375px;
     object-fit: cover;
-    width: 90%;
+    width: 100%;
 }
 
 #intro{
     text-align:center;
     background-color: #ff5d05;
     color: antiquewhite;
-    padding: 5px;
+    padding: 15px;
+    width:75%;
+    margin: 20px auto;
+ 
 }
 
 
@@ -30,42 +33,23 @@ p, li{
 }
 
 
-  
-  /* Create two equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 50%;
-  }
-  @media(max-width: 768px){
-	.column{
-    width:100%;
-   
-    }
-    #peppers{
-        width: 100%;
-    }
-}
 
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    
-  }
-  
-
-.video {
-    text-align: center;
-    color:antiquewhite;
+.video, .footer {
+    text-align:center;
     background-color: #ff5d05;
-    padding-bottom: 10px;
+    color: antiquewhite;
+    padding: 5px;
+ 
 }
 
-.footer{
-    padding-bottom: 5px;
+.media{
+        max-width: 75%;
+        width: "560"; 
+        height: "315";
+        position: relative;
+        margin: 0 auto;    
 }
+
 
 #border{ 
     border: 10px solid transparent;
@@ -76,12 +60,7 @@ p, li{
   }
 
 
-/* 
-h2.video {
-    text-align: center;
-    color:white;
-    background-color: #ff5d05;
-} */
+
 
 /* 
   google fonts:

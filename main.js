@@ -1,4 +1,5 @@
-var likes = localStorage.getItem("likes_counter", likes)
+var likes= 1020406;
+// likes = localStorage.getItem("likes_counter", likes)
 
 
 function like() {
